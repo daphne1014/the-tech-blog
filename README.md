@@ -1,16 +1,16 @@
 # the-tech-blog [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-A quiz website that allows users to practice that helps to practice coding skills with true or false quiz questions.
+
 
 ## Built With
 
 * JavaScript
-* Tailwind CSS
+* Bootstrap
 * MySQL
 * handlebars
 
 ## Description 
 
-A website that allows users to sign up using their email address. They can take the quiz, save their scores and view their progress on their dashboard.
+A website that allows users post an article or any other contents with title and comment on them with other users.
 
 
 ## Table of Contents 
@@ -22,7 +22,7 @@ A website that allows users to sign up using their email address. They can take 
   
 ## Website
   
- https://ucla-code-quiz.herokuapp.com/
+ https://module-14-the-tech-blog.herokuapp.com/
 
  ## UserStory
 
@@ -30,7 +30,6 @@ A website that allows users to sign up using their email address. They can take 
 AS A developer who writes about tech
 I WANT a CMS-style blog site
 SO THAT I can publish articles, blog posts, and my thoughts and opinions
-
 ```
 
 ## License 
@@ -40,7 +39,7 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ## Screenshot
   
-  ![screenshot image](./public/img/website-screenshot.JPG?raw=true "Screenshot") 
+  ![screenshot image](./public/images/website-screenshot.JPG?raw=true "Screenshot") 
    
 ## Questions
   Feel free to reach out us on GitHub: 
