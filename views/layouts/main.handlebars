@@ -21,13 +21,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    {{#if loggedIn}}
+
                     <li class="nav-item active">
                         <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/dashboard">Dashboard</a>
                     </li>
+                    {{#if loggedIn}}
                     <li class="nav-item">
                         <button class="nav-link btn-no-style" id="logout">Logout</button>
                     </li>
