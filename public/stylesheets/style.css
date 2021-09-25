@@ -18,6 +18,12 @@ button {
 	cursor: pointer;
 	outline: inherit;
 }
+h1 {
+    text-align: center;
+}
+ol li{
+    list-style-type: none;
+  }
 .new-post{
     align-items: center;
 }

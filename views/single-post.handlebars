@@ -2,15 +2,21 @@
 
 {{!-- commeent form start --}}
 {{#if loggedIn}}
-<form class="comment-form">
-    <div>
-        <textarea name="comment-body"></textarea>
-    </div>
+<div class="container py-5">
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5 text-center">
+            <form class="comment-form">
+                <div>
+                    <textarea name="comment-body"></textarea>
+                </div>
 
-    <div>
-        <button type="submit">add comment</button>
+                <div>
+                    <button type="submit" class="btn-secondary btn-sm">add comment</button>
+                </div>
+            </form>
+        </div>
     </div>
-</form>
+</div>
 {{/if}}
 
 {{> comments post.comments}}
