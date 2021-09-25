@@ -18,3 +18,9 @@ button {
 	cursor: pointer;
 	outline: inherit;
 }
+.new-post{
+    align-items: center;
+}
+#post-content{
+    height:200px;
+}
