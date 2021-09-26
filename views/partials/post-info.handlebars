@@ -7,7 +7,7 @@
   <div class="card-body">
     <h5 class="card-title"> {{title}}</h5>
     <p class="card-text">{{content}}</p>
-     <a href="/post/{{id}}" class="btn btn-primary">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+     <a href="/post/{{id}}" class="btn btn-secondary">{{comments.length}} {{format_plural "comment" comments.length}}</a>
   </div>
   <div class="card-footer text-muted">
     Written on {{format_date created_at}}

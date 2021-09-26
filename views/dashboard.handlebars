@@ -1,20 +1,32 @@
-<div class="container py-5">
-    <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-12 col-md-8 col-lg-6 col-xl-5 text-center">
-            <h2 class="mb-4">Create New Post</h2>
-            <form class="new-post-form">
-                <div class="mb-4">
-                    <label for="post-title">Title: </label>
-                    <input type="text" id="post-title" name="post-title" />
+<div class="new-post-form">
+    <form action="/examples/actions/confirmation.php" method="post">
+        <h2>Create New Post</h2>
+        <p>Please use this form to post a new post!</p>
+        <hr>
+        <div class="form-group">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <i class="fas fa-heading"></i>
+                    </span>
                 </div>
-                <div class="mb-4">
-                    <label for="post-content">Content: </label>
-                    <input type="text" id="post-content" name="post-content" />
-                </div>
-                <button type="submit" class="btn btn-secondary btn-sm">Create</button>
-            </form>
+                <input type="text" id="post-title" class="form-control" placeholder="Title" name="post-title" required="required">
+            </div>
         </div>
-    </div>
+        <div class="form-group">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <i class="fas fa-pencil-alt"></i>
+                    </span>
+                </div>
+                <input type="text" id="post-content" class="form-control" placeholder="Content" name="post-content" required="required">
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-secondary btn-lg">Create</button>
+        </div>
+    </form>
 </div>
 
 {{#if posts.length}}
